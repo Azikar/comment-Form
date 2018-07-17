@@ -1,4 +1,4 @@
 https://simplecommentsystem.000webhostapp.com/
 
 
-there's some optimization issues
+there are some optimization issues
