@@ -27,7 +27,7 @@
 <div class ="container">
 
 <hr class="v">
-    <h1>Comment Form</h1>
+    <h1 id="title">Comment Form</h1>
 <hr class="v">
     <!-- OUR FORM -->
     <form id="form1" action="assets/insert.php" method="POST">
@@ -240,8 +240,10 @@ function displayform(data)
 	var x = document.getElementById(data+"form");
     if (x.style.display === "block") {
         x.style.display = "none";
+	document.getElementById("title").innerHTML = "Comment form";
     } else {
         x.style.display = "block";
+	document.getElementById("title").innerHTML = "Clicked to reply";
     }	
 }
 
